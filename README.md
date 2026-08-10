@@ -9,3 +9,5 @@ Become capable of taking real problems and turning them into functional software
 ## Day 1
 
 Setting up my development environment, Git, GitHub and beginning my journey as a builder.
+
+Day 1: Started Operation: BUILD.
