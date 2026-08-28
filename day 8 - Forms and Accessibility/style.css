@@ -1,0 +1,149 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family:Arial, Helvetica, sans-serif;
+    background: #eff3f6;
+    color: #161616;
+}
+
+.form-page {
+    width: min(90%, 1000px);
+    margin: 0 auto;
+    padding: 80px 0;
+}
+
+.form-intro {
+    max-width: 650px;
+    margin-bottom: 60px;
+}
+
+.eyebrow {
+    font-size: 0.75rem;
+    font-weight: 700;
+    letter-spacing: 0.12em;
+}
+
+.form-intro h1 {
+    font-size: clamp(3.5rem, 14vw, 6rem);
+    line-height: 0.95;
+    margin: 20px 0;
+}
+
+.form-intro p:last-child {
+    font-size: 1.1rem;
+    line-height: 1.6;
+}
+
+.project-form {
+    max-width: 700px;
+    padding: 32px;
+    background: #eef0f1;
+    border: 1px solid #b7bec1;
+    border-radius: 18px;
+}
+
+.form-group {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-bottom: 28px;
+}
+
+label {
+    font-weight: 700;
+}
+
+input,
+select,
+textarea {
+    width: 100%;
+    padding: 16px;
+    font: inherit;
+    border: 1px solid #bbb;
+    border-radius: 8px;
+    background: #f2f3f6;
+    transition: border-color 0.2s ease, outline-color 0.2s ease;
+}
+
+textarea {
+    resize: vertical;
+    min-height: 150px;
+}
+
+button {
+    padding: 16px 24px;
+    width: fit-content;
+    border: 0;
+    border-radius: 999px;
+    background: #161616;
+    color: #fff;
+    font: inherit;
+    font-weight: 700;
+    cursor: pointer;
+    transition: transform 0.2s ease, opacity 0.2s ease;
+}
+
+button:hover {
+    transform: translateY(-2px);
+    opacity: 0.85;
+}
+
+button:active {
+    transform: translateY(0);
+}
+
+input:focus,
+select:focus,
+textarea:focus {
+    outline: 2px solid #161616;
+    outline-offset: 2px;
+}
+
+input:user-invalid,
+select:user-invalid,
+textarea:user-invalid {
+    border-color: #b00020;
+}
+
+input:user-valid,
+select:user-valid,
+textarea:user-valid {
+    border-color: #2e7d32;
+}
+
+input:focus-visible,
+select:focus-visible,
+textarea:focus-visible,
+button:focus-visible {
+    outline: 2px solid #161616;
+    outline-offset: 3px;
+}
+
+@media (min-width: 900px) {
+    .form-page {
+        padding-top: 120px;
+    }
+
+    .form-intro h1 {
+        max-width: 800px;
+    }
+
+    .project-form {
+        max-width: 700px;
+    }
+}
+
+@media (max-width: 500px) {
+    .form-intro p:last-child {
+        font-size: 1rem;
+        max-width: 30ch;
+        margin-top: 0;
+    }
+
+    .form-intro h1 {
+        margin-bottom: 24px;
+    }
+}
