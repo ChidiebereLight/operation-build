@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Day 10 - Task Tracker</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <main class="app">
+
+        <header class="topbar">
+            <div>
+                <p class="brand">OB / 10 </p>
+                <span class="status">● BUILD MODE</span>
+            </div>
+
+            <div class="task-count">
+                <span id="task-count">0</span>
+                <span>tasks</span>
+            </div>
+        </header>
+
+        <section class="workspace">
+
+            <div class="intro">
+                <p class="eyebrow">TODAY'S WORKSPACE</p>
+                <h1>Get things done.</h1>
+                <p class="subtitle">
+                    Capture the work. Complete the work. Keep moving.
+                </p>
+            </div>
+
+        <form class="task-form">
+
+            <label for="task-input">New task</label>
+
+            <div class="task-input-row">
+                <input
+                    type="text"
+                    Id="task-input"
+                    placeholder="What needs to happen?"
+                
+                >
+
+                <button type="submit">Add task</button>
+            </div>
+
+        </form>
+
+        <section class="tasks">
+
+            <div class="tasks-header">
+                <h2>Tasks</h2>
+                <span>Today</span>
+            </div>
+
+            <ul class="task-list"></ul>
+
+         </section>
+
+    </section>
+
+</main>
+
+<script src="script.js"></script>
+
+</body>
+</html>
+
+            
