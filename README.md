@@ -36,9 +36,21 @@ Built a dashboard layout using CSS Grid. Practiced creating structured multi-col
 
 Focused on responsive design and adapting layouts for different screen sizes. Practiced using responsive CSS techniques to make interfaces work across devices.
 
+### Day 8 — Forms & Accessibility
+
+Learned and practiced building forms while introducing accessibility considerations into the interface.
+
+### Day 9 — JavaScript Foundation
+
+Started working with JavaScript fundamentals and learned how JavaScript can add behavior and interactivity to web pages.
+
+### Day 10 — Task Tracker
+
+Built a functional task tracker using JavaScript and the DOM. Practiced selecting elements, responding to user interactions, and dynamically updating the interface.
+
 ## What I'm Building
 
-This repository documents the progression from learning the fundamentals of software development to building functional software independently.
+This repository documents my progression from learning the fundamentals of software development to building functional software independently.
 
 Each day is focused on learning a concept, applying it through code, and committing the result.
 
@@ -52,4 +64,4 @@ The objective is to become a builder who can take a real problem, break it down,
 
 ---
 
-**Day 7 / 90**
+**Day 10 / 90**
